@@ -1,0 +1,112 @@
+.input {
+    /* max-width: 50%; */
+    width: 100%;
+    margin: 10px 0;
+    /* padding: 0 15px; */
+    border: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: row;
+    vertical-align: top;
+}
+
+.input input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.cbx {
+    margin: auto;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cbx span {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translate3d(0, 0, 0);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3A405F;
+}
+
+.cbx span:first-child {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    transform: scale(1);
+    vertical-align: middle;
+    border: 1px solid #9098A9;
+    transition: all 0.2s ease;
+}
+
+.cbx span:first-child svg {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 16px;
+    stroke-dashoffset: 16px;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+    transform: translate3d(0, 0, 0);
+}
+
+.cbx span:first-child:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fcb602;
+    display: block;
+    transform: scale(0);
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.cbx span:last-child {
+    padding-left: 8px;
+}
+
+.cbx:hover span:first-child {
+    border-color: #fcb602;
+}
+
+.inpCbx:checked + .cbx span:first-child {
+    background: #fcb602;
+    border-color: #fcb602;
+    animation: wave 0.4s ease;
+}
+
+.inpCbx:checked + .cbx span:first-child svg {
+    stroke-dashoffset: 0;
+}
+
+.inpCbx:checked + .cbx span:first-child:before {
+    transform: scale(3.5);
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+@keyframes wave {
+    50% {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 767px) {
+    .cbx {
+        align-items: center;
+    }
+}

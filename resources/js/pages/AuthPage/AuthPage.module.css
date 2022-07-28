@@ -1,0 +1,54 @@
+.Auth {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+    height: 100%;
+    background-image: url('/images/AuthBackground.png');
+}
+
+.Auth > .Body {
+    align-self: center;
+    width: 100%;
+    max-width: 360px;
+    max-height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.Auth > .Body > div {
+    padding: 30px;
+}
+
+.Auth > .Logo {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.Auth > .Title {
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+    color: #8C8C8C;
+    font-size: 14px;
+    text-align: center;
+}
+
+.Auth > .Body > div h1 {
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+@media (max-width: 900px) {
+    .Auth > .Logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

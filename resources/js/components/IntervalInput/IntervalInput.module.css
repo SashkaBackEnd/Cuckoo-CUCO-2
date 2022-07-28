@@ -1,0 +1,112 @@
+.input {
+  padding-top: 24px;
+  border-top: 1px solid #EDEDED;
+  margin-bottom: 24px;
+}
+
+.input:last-child {
+  margin-bottom: 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.input:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.input .input__header {
+  display: grid;
+  justify-content: flex-start;
+  align-items: start;
+  grid-template-columns: 140px 150px 40px;
+  margin-bottom: 30px;
+}
+
+.input .input__header > span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2C2C2C;
+  display: flex;
+  width: 100%;
+  max-width: 120px;
+}
+
+.input .input__header > label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 150px;
+  position: relative;
+
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #8E8E8E;
+}
+
+.input .input__header > label input {
+  padding: 16px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.input .input__interval {
+  display: grid;
+  grid-template-columns: repeat(24, 43px);
+  grid-gap: 24px 4px;
+  align-items: center;
+}
+
+.input .input__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.input .input__input > input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.input .input__checkmark {
+  transition: 145ms ease-in-out;
+  height: 8px;
+  width: 100%;
+  background-color: #D8D8D8;
+}
+
+.input .input__input p {
+  transition: 145ms ease-in-out;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #8C8C8C;
+}
+
+.input .input__input input:focus ~ p {
+  text-decoration: underline;
+  color: #9EBBFF;
+}
+
+.input .input__input:hover p, .input .input__input input:checked ~ p {
+  color: #9EBBFF;
+}
+
+.input .input__input:hover .input__checkmark, .input .input__input input:checked ~ .input__checkmark {
+  background: #9EBBFF;
+}

@@ -1,0 +1,40 @@
+
+.rdrEndEdge, .rdrStartEdge, .rdrInRange  {
+  border-radius: 0!important;
+  padding: 13px
+}
+
+.rdrDayHovered > span {
+  /*border: none!important;*/
+  border-radius: 0!important;
+  /*border: 2px solid red!important;*/
+}
+
+.rdrDayInPreview, .rdrDayStartPreview, .rdrDayEndPreview {
+  border-radius: 0!important;
+
+}
+
+.rdrInRange {
+  background: #EEF3FF;
+  color: black
+
+}
+
+.rdrDayActive {
+  color: black!important;
+}
+.rdrDays {
+  color: black
+}
+
+.rdrDayNumber > span {
+  color: black!important;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.rdrDayPassive > span > span {
+    color: #ffffff!important;
+}

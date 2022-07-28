@@ -1,0 +1,96 @@
+.CheckStatus {
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.CheckStatus > div {
+    display: flex;
+}
+
+.CheckStatus div > img {
+    margin-right: 12px;
+    width: 30px;
+}
+
+.CheckStatus div {
+    align-self: center;
+}
+
+.CheckStatus div > p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #666666;
+    margin-bottom: 0;
+}
+
+.setGuard p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.selectBlock {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.selectBlock .select {
+    max-width: 59%;
+    width: 100%;
+    margin-right: 0;
+    border-radius: 0;
+}
+
+.selectBlock .select > div {
+    border: none;
+    background: #F5F6F7;
+    border-radius: 0;
+}
+
+.select > div > div:first-of-type{
+    padding: 5px 15px;
+}
+
+.select > div:not(:first-of-type){
+    border: none;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.select span {
+    display: none;
+}
+
+.select > div:first-of-type{
+    box-shadow: none;
+}
+
+.select > div {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.selectInner.value-container {
+    padding: 9px 15px;
+}
+
+.select .css-1hwfws3 .css-1wa3eu0-placeholder {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.selectBlock button {
+    max-width: 41%;
+    margin-left: 0;
+    font-size: 14px;
+    line-height: 16px;
+}

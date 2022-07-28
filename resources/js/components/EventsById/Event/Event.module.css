@@ -1,0 +1,33 @@
+.Event {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.Event > p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3A3A3A;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.Event > p > img {
+    margin-right: 15px;
+    width: 30px;
+}
+
+.Event > p > span {
+    color: #8C94A4;
+}
+
+.Event > span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8C94A4;
+    display: flex;
+    align-items: center;
+}

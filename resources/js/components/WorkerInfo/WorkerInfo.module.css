@@ -1,0 +1,14 @@
+.Info {
+  display: flex;
+  align-items: center;
+}
+
+.InfoItem {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.InfoItem >*:first-child {
+  margin-right: 10px;
+}

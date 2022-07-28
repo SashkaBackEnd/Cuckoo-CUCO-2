@@ -1,0 +1,57 @@
+.CheckPost {
+    padding: 20px 0;
+}
+
+.CheckPost button {
+    max-width: 200px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.CheckPost > .header {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.CheckPost > .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CheckPost > .body > .info a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5484F7;
+}
+
+.CheckPost > .body > .info span {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #C4C5C7;
+}
+
+.CheckPost > .body > .info p {
+    margin-bottom: 0;
+}
+
+.CheckPost > .body > .info .phone {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+    margin-bottom: 0;
+}
+
+.CheckPost > .body > .status p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #666666;
+    margin-bottom: 0;
+}

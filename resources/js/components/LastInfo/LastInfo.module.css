@@ -1,0 +1,14 @@
+.Info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .LastCheck {
+    position: relative;
+    right: 0;
+  }
+  
+  .HStack {
+    width: 100%;
+  }
+  

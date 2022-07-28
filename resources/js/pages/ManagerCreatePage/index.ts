@@ -1,0 +1,1 @@
+export {ManagerCreatePage} from './ManagerCreatePage'

@@ -1,0 +1,129 @@
+.info {
+  padding-right: 28px;
+  /*border-right: 1px solid #C4C4C433;*/
+}
+
+.info .info__title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info .info__description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8C8C8C;
+  margin-bottom: 20px;
+}
+
+.info .info__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 150px;
+}
+
+.info .info__contacts p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.info .info__contacts a {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3E74F4;
+}
+
+.info .info__contacts svg {
+  margin-right: 12px;
+}
+
+.MoreInfo {
+  display: flex;
+  align-items: flex-start;
+}
+
+.MoreInfo svg {
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.ManagerList:hover {
+  overflow: auto;
+  transition-duration: 1s;
+}
+
+.attached__manager {
+  display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+}
+
+.delete__button:hover {
+  background: none;
+}
+
+.delete__button:focus {
+  background: none;
+}
+
+@media (max-width: 1550px) {
+  .info .info__contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .info .info__contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .info .info__contacts {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+  }
+} */
+/* @media (max-width: 600px) {
+  .info {
+    width: 100%;
+    padding-right: none;
+    border-right: none;
+  }
+} */

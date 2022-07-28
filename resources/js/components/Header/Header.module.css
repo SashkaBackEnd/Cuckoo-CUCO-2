@@ -1,0 +1,92 @@
+.Header {
+    box-sizing: border-box;
+    padding: 40px 10px;
+    width: 100%;
+    height: 300px;
+    background-image: url('/images/AuthBackground.png');
+    margin-bottom: 40px;
+}
+
+.Tabs {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.Tabs > div {
+    box-sizing: border-box;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: 137px;
+    margin: 0 2px;
+    background-color: rgba(256, 256, 256, .8);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.Tabs > div:hover {
+    color: #fff;
+    background-color: rgba(72, 118, 226, 0.7);
+}
+
+.Tabs a {
+    color: #2C2C2C;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.Tabs div:hover a {
+    color: #fff;
+}
+
+.Tabs span {
+    padding-left: 30px;
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Tabs span::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #FF6230;
+    box-shadow: 0 0 0 5px rgba(255, 98, 48, .5);
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.Tabs > div:hover span::before {
+    background-color: #05D2FF;
+    box-shadow: 0 0 0 5px rgba(5, 210, 255, .5);
+}
+
+.Date {
+    display: flex;
+    flex-direction: column;
+}
+
+.Date > span {
+    margin-bottom: 10px;
+}
+
+.Date span:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.Date span:last-child {
+    font-size: 14px;
+    color: #8c8c8c;
+}

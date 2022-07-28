@@ -1,0 +1,36 @@
+.EventsById {
+    margin-top: 20px;
+}
+
+.EventsById > div {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0px 10px;
+    height: 100%;
+    margin-right: -25px;
+    padding-right: 30px;
+}
+
+.EventsById > div > img{
+    display: block;
+    margin: auto;
+}
+
+.EventsById > p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.EventsByIdEmpty {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #6C6C6C;
+    margin-bottom: 30px;
+}

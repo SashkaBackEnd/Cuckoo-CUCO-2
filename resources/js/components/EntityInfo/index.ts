@@ -1,0 +1,1 @@
+export {EntityInfo} from './EntityInfo'

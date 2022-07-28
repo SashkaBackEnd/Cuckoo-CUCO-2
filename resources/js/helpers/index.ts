@@ -1,0 +1,6 @@
+export {getFullName} from './getFullName'
+export {unmaskPhone} from './unmaskPhone'
+export {getWorkTime} from './getWorkTime'
+export {getLocaleCurrency} from './getLocaleCurrency'
+export {getLogColor} from './getLogColor'
+export {phonesFormatter} from './phonesFormatter'

@@ -1,0 +1,8 @@
+
+.divider_with_text {
+  border-bottom: none !important;
+}
+
+.event_single:last-child {
+  border-bottom: none !important;
+}

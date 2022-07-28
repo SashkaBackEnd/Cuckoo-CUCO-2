@@ -1,0 +1,133 @@
+.card {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 145ms ease-in-out;
+    text-decoration: none;
+}
+
+.card > * {
+    text-decoration: none;
+}
+
+.card:hover {
+    box-shadow: inset 4px 0 0 #3E74F4, 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card .card__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card .card__status {
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /*color: #4CC557;*/
+    position: relative;
+    /* padding-left: 14px; */
+    display: flex;
+    align-items: center;
+}
+
+.card .card__status:before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    /*background: #4CC557;*/
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+}
+
+.card .card__header > div {
+    display: flex;
+    align-items: center;
+}
+
+.card .card__header > div > *:first-child {
+    margin-right: 12px;
+}
+
+.card .card__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.card .card__subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8C8C8C;
+    margin-bottom: 0;
+}
+
+.card .card__icon {
+    margin-bottom: 16px;
+    background: #93B9D5;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .card__icon > svg {
+    width: 22px;
+    height: 20px;
+}
+
+.card .card__contacts * {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card .card__contacts *:last-child {
+    margin-bottom: 0;
+}
+
+.card .card__contacts svg {
+    margin-right: 12px;
+}
+
+.card .card__contacts p {
+    color: #000000;
+}
+
+.card .card__contacts a {
+    color: #3E74F4;
+    text-decoration: none;
+}
+
+.card .card__peoples {
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.card .card__peoples svg, .card .card__peoples p {
+    margin-right: 10px;
+}
+
+.card .card__peoples p:last-child {
+    margin-left: 12px;
+}

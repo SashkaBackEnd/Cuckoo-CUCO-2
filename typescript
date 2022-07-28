@@ -1,0 +1,163 @@
+Script started on 2021-08-23 11:09:43+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?7l[1m        [34m,'''''.
+       [34m|   ,.  |
+       [34m|  |  '_'
+[34m  ,....|  |..
+[34m.'  ,_;|   ..'
+[34m|  |   |  |
+[34m|  ',_,'  |
+[34m '.     ,'
+   [34m'''''
+[0m[9A[18C[34m[1m[35m[1mkamnev[1m@[35m[1mfedora[0m[35D[7C[37m[0m
+[18C[34m[1mos[0m[2D[7C[37mFedora 34 (Workstation Edition)[0m
+[18C[34m[1mhost[0m[4D[7C[37mHP Pavilion Laptop 13-an1xxx[0m
+[18C[34m[1mkernel[0m[6D[7C[37m5.13.12-200.fc34.x86_64[0m
+[18C[34m[1muptime[0m[6D[7C[37m1h 11m[0m
+[18C[34m[1mpkgs[0m[4D[7C[37m2042[0m
+[18C[34m[1mmemory[0m[6D[7C[37m4659M / 7723M[0m
+
+
+
+[?7h[?2004h]7;file://fedora/home/kamnev/PHP/cuckoo]0;fish /home/kamnev/PHP/cuckoo[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/cuckoo(B[m (master)(B[m> [K[35Cl[36C[38;2;255;0;0ml[36C[30m(B[m[38;2;85;85;85ms[36C[30m(B[m[38;2;255;0;0ms[37C[30m(B[m[38;2;0;95;215mls[37C[30m(B[m[37C
+[30m(B[m[?2004l]0;ls /home/kamnev/PHP/cuckoo[30m(B[m[0m[01;34mapp[0m            [01;34mconfig[0m               phpunit.xml  server.php  webpack.mix.js
+artisan        [01;34mdatabase[0m             [01;34mpublic[0m       socket.js   yarn.lock
+[01;34masterisk.old[0m   ecosystem.config.js  README.md    [01;34mstorage[0m
+[01;34mbootstrap[0m      [01;34mnode_modules[0m         [01;34mresources[0m    [01;34mtests[0m
+composer.json  package.json         [01;34mroutes[0m       typescript
+composer.lock  package-lock.json    [01;34mscripts[0m      [01;34mvendor[0m
+[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/cuckoo(B[m (master)(B[m> [K[35Cc[36C[38;2;85;85;85md ..[36C[30m(B[m[38;2;255;0;0mc[38;2;85;85;85md ..[36C[30m(B[m[38;2;255;0;0md[38;2;85;85;85m ..[37C[30m(B[m[38;2;0;95;215mcd[38;2;85;85;85m ..[37C[30m(B[m[38;2;0;95;215m [38;2;85;85;85m..[38C[30m(B[m [38;2;85;85;85m..[38C[30m(B[ms[K[39C[38;2;0;175;255m[4ms[39C[30m(B[m[38;2;85;85;85mcripts/[39C[30m(B[m[38;2;0;175;255m[4mc[38;2;85;85;85m[24mripts/[40C[30m(B[m[38;2;0;175;255m[4mripts/[46C[30m(B[m[46C
+[30m(B[m[?2004l]0;cd scripts/ /home/kamnev/PHP/cuckoo[30m(B[m]7;file://fedora/home/kamnev/PHP/cuckoo/scripts[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m> [K[38Cl[39C[38;2;85;85;85ms[39C[30m(B[m[38;2;255;0;0ml[38;2;85;85;85ms[39C[30m(B[m[38;2;255;0;0ms[40C[30m(B[m[38;2;0;95;215mls[40C[30m(B[m[40C
+[30m(B[m[?2004l]0;ls /home/kamnev/PHP/cuckoo/scripts[30m(B[mschedule_run.sh
+[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m> [K[38Cl[39C[38;2;85;85;85ms[39C[30m(B[m[38;2;255;0;0ml[38;2;85;85;85ms[39C[30m(B[m[38;2;255;0;0ms[40C[30m(B[m[38;2;0;95;215mls[40C[30m(B[m[38;2;0;95;215m [41C[30m(B[m [41C[38;2;85;85;85m-al[41C[30m(B[m-al[44C[38;2;0;175;255m-al[44C[30m(B[m[44C
+[30m(B[m[?2004l]0;ls -al /home/kamnev/PHP/cuckoo/scripts[30m(B[mtotal 4
+drwxr-xr-x. 1 kamnev kamnev  30 Aug 23 11:09 [0m[01;34m.[0m
+drwxrwxr-x. 1 kamnev kamnev 646 Aug 23 11:09 [01;34m..[0m
+-rw-r--r--. 1 kamnev kamnev 138 Aug 23 11:09 schedule_run.sh
+[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m> [K[38Cc[39C[38;2;255;0;0mc[39C[30m(B[m[38;2;85;85;85md ..[39C[30m(B[m[38;2;255;0;0mh[30m(B[m[K[40C[38;2;85;85;85mmod 777 start_api_user_group.sh[40C[30m(B[m[38;2;255;0;0mmod 777 start_api_user_group.sh[71C[30m(B[m[33D[38;2;0;95;215mchmod[30m(B[m [38;2;0;175;255m777[30m(B[m [38;2;0;175;255mstart_api_user_group.sh[71C[30m(B[m[K[69C[K[63C[K[58C[K[54C[K[48Cs[49C[38;2;0;175;255m[4ms[49C[30m(B[m[38;2;85;85;85mtart_api_user_group.sh[49C[30m(B[m[38;2;0;175;255m[4mc[30m(B[m[K[50C[38;2;85;85;85mhedule_run.sh [50C[30m(B[m[38;2;0;175;255m[4mhedule_run.sh [64C[30m(B[m [64C[64C
+[30m(B[m[?2004l]0;chmod 777 schedule_run.sh  /home/kamnev/PHP/cuckoo/scripts[30m(B[m[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m> [K[38Cl[39C[38;2;85;85;85ms -al[39C[30m(B[m[38;2;255;0;0ml[38;2;85;85;85ms -al[39C[30m(B[m[38;2;255;0;0ms[38;2;85;85;85m -al[40C[30m(B[m[38;2;0;95;215mls[38;2;85;85;85m -al[40C[30m(B[m[K[40C
+[30m(B[m[?2004l]0;ls /home/kamnev/PHP/cuckoo/scripts[30m(B[m[0m[01;32mschedule_run.sh[0m
+[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m> [K[38C.[39C[38;2;0;95;215m.[39C[30m(B[m[38;2;85;85;85m [39C[30m(B[m[38;2;0;95;215m/[40C[30m(B[m[38;2;85;85;85mschedule_run.sh [40C[30m(B[m[38;2;0;95;215mschedule_run.sh [56C[30m(B[m [56C[56C
+[30m(B[m[?2004l]0;./schedule_run.sh  /home/kamnev/PHP/cuckoo/scripts[30m(B[mCould not open input file: /var/www/cuckoo/artisan
+Could not open input file: /var/www/cuckoo/artisan
+Could not open input file: /var/www/cuckoo/artisan
+^C[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m (B[m[31m[[1m[31mSIGINT(B[m[31m](B[m(B[m> [K[47C./schedule_run.sh[64C[17D[38;2;0;95;215m./schedule_run.sh[64C[30m(B[m[17D[38;2;0;95;215mls[30m(B[m[K[49C[38;2;0;95;215m./schedule_run.sh[64C[30m(B[m
+[30m(B[m[?2004l]0;./schedule_run.sh /home/kamnev/PHP/cuckoo/scripts[30m(B[m[32mRunning scheduled command:[39m dialQueue
+^C[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m (B[m[31m[[1m[31mSIGINT(B[m[31m](B[m(B[m> [K[47Cы[48C[38;2;255;0;0mы[48C[30m(B[m[K[47C[47Cg[J[48C[38;2;255;0;0mg[48C[30m(B[m[38;2;85;85;85mnome-shell --version[48C[30m(B[m[38;2;255;0;0mg[30m(B[m[K[49C[38;2;85;85;85mt[49C[30m(B[m[K[47C[H[2J]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m (B[m[31m[[31mSIGINT(B[m[31m](B[m(B[m> [K[47Cg[48C[38;2;85;85;85mnome-shell --version[48C[30m(B[m[38;2;255;0;0mg[38;2;85;85;85mnome-shell --version[48C[30m(B[m[38;2;255;0;0mg[30m(B[m[K[49C[38;2;85;85;85mt[49C[30m(B[m[38;2;255;0;0mt[50C[30m(B[m[38;2;0;95;215mggt[50C[30m(B[m[50C
+[30m(B[m[?2004l]0;ggt /home/kamnev/PHP/cuckoo/scripts[30m(B[m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
+[2m⏎(B[m                                                                                                                                                                                             ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m> [K[38Cc[39C[38;2;85;85;85mhmod 777 schedule_run.sh[39C[30m(B[m[38;2;255;0;0mc[38;2;85;85;85mhmod 777 schedule_run.sh[39C[30m(B[m[38;2;255;0;0md[30m(B[m[K[40C[38;2;0;95;215mcd[40C[30m(B[m[38;2;85;85;85m ..[40C[30m(B[m[K[39C[38;2;255;0;0mc[39C[30m(B[m[K[38Cl[39C[38;2;85;85;85ms[39C[30m(B[m[38;2;255;0;0ml[38;2;85;85;85ms[39C[30m(B[m[38;2;255;0;0ms[40C[30m(B[m[38;2;0;95;215mls[40C[30m(B[m[40C
+[30m(B[m[?2004l]0;ls /home/kamnev/PHP/cuckoo/scripts[30m(B[m[0m[01;32mschedule_run.sh[0m
+[2m⏎(B[m                                                                                                                                                                                             ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m> [K[38C.[39C[38;2;85;85;85m/schedule_run.sh[39C[30m(B[m[38;2;0;95;215m.[38;2;85;85;85m/schedule_run.sh[39C[30m(B[m[38;2;0;95;215m/[38;2;85;85;85mschedule_run.sh[40C[30m(B[m[38;2;0;95;215mk[30m(B[m[K[41C[38;2;255;0;0m./k[41C[30m(B[m[38;2;255;0;0ma[42C[30m(B[m[38;2;255;0;0mm[43C[30m(B[m[K[42C[K[41C[38;2;255;0;0mh[42C[30m(B[m[K[41C[K[40C[38;2;0;95;215m./[40C[30m(B[m[38;2;0;95;215mh[41C[30m(B[m[38;2;255;0;0m./h[41C[30m(B[m[38;2;255;0;0mo[42C[30m(B[m[38;2;255;0;0mm[43C[30m(B[m[38;2;255;0;0me[44C[30m(B[m[38;2;255;0;0m/[45C[30m(B[m[38;2;255;0;0mk[46C[30m(B[m[38;2;255;0;0ma[47C[30m(B[m[38;2;255;0;0mm[48C[30m(B[m[38;2;255;0;0mn[49C[30m(B[m[38;2;255;0;0me[50C[30m(B[m[38;2;255;0;0mv[51C[30m(B[m[38;2;255;0;0m/[52C[30m(B[m[45C[40C[39C[38;2;255;0;0m/home/kamnev/[30m(B[m[K[38C[38;2;0;95;215m/home/kamnev/[38C[30m(B[m[43C[50C[51C[38;2;0;95;215mP[52C[30m(B[m[14D[38;2;255;0;0m/home/kamnev/P[52C[30m(B[m[38;2;85;85;85mHP/[52C[30m(B[m[38;2;255;0;0mH[38;2;85;85;85mP/[53C[30m(B[m[38;2;255;0;0mP/[55C[30m(B[m[17D[38;2;0;95;215m/home/kamnev/PHP/[55C[30m(B[m
+[1m[4m…mnev/PHP/(B[mapi-autolong/  ([38;2;179;160;109mDirectory, 434B[30m(B[m)  [1m[4m…mnev/PHP/(B[mautolong_ecommerce/  ([38;2;179;160;109mDirectory, 554B[30m(B[m)  [1m[4m…mnev/PHP/(B[mkrokus/                ([38;2;179;160;109mDirectory, 712B[30m(B[m)
+[1m[4m…mnev/PHP/(B[mautolong/      ([38;2;179;160;109mDirectory, 650B[30m(B[m)  [1m[4m…mnev/PHP/(B[mcuckoo/              ([38;2;179;160;109mDirectory, 646B[30m(B[m)  [1m[4m…mnev/PHP/(B[mlaravel-redis-helper/  ([38;2;179;160;109mDirectory, 140B[30m(B[m)[A[A[55C[J[55C[38;2;0;95;215ma[56C[30m(B[m[18D[38;2;255;0;0m/home/kamnev/PHP/a[56C[30m(B[m[38;2;85;85;85mpi-autolong/[56C[30m(B[m[38;2;255;0;0mu[30m(B[m[K[57C[38;2;85;85;85mtolong/[57C[30m(B[m[38;2;255;0;0mtolong[38;2;85;85;85m/
+[30m(B[m[1m[4m…/autolong(B[m/  ([38;2;179;160;109mDirectory, 650B[30m(B[m)  [1m[4m…/autolong(B[m_ecommerce/  ([38;2;179;160;109mDirectory, 554B[30m(B[m)[A[63C[25D[38;2;0;95;215m/home/kamnev/PHP/autolong[38;2;85;85;85m/[63C[30m(B[m[38;2;0;95;215m/[30m(B[m[J[64C[9D[K[55C[K[51C[38;2;0;95;215mP[52C[30m(B[m[14D[38;2;255;0;0m/home/kamnev/P[52C[30m(B[m[38;2;85;85;85mHP/[52C[30m(B[m[38;2;255;0;0mH[38;2;85;85;85mP/[53C[30m(B[m[38;2;255;0;0mP[38;2;85;85;85m/[54C[30m(B[m[16D[38;2;0;95;215m/home/kamnev/PHP[38;2;85;85;85m/[54C[30m(B[m[38;2;0;95;215m/[55C[30m(B[m[38;2;0;95;215mc[56C[30m(B[m[18D[38;2;255;0;0m/home/kamnev/PHP/c[56C[30m(B[m[38;2;85;85;85muckoo/[56C[30m(B[m[38;2;255;0;0mu[38;2;85;85;85mckoo/[57C[30m(B[m[38;2;255;0;0mc[38;2;85;85;85mkoo/[58C[30m(B[m[38;2;255;0;0mkoo/[62C[30m(B[m[24D[38;2;0;95;215m/home/kamnev/PHP/cuckoo/[62C[30m(B[m[38;2;0;95;215ms[63C[30m(B[m[25D[38;2;255;0;0m/home/kamnev/PHP/cuckoo/s[63C[30m(B[m[38;2;85;85;85mcripts/[63C[30m(B[m[38;2;255;0;0mcripts/[70C[30m(B[m[32D[38;2;0;95;215m/home/kamnev/PHP/cuckoo/scripts/[70C[30m(B[m[38;2;0;95;215ms[71C[30m(B[m[33D[38;2;255;0;0m/home/kamnev/PHP/cuckoo/scripts/s[71C[30m(B[m[38;2;85;85;85mchedule_run.sh [71C[30m(B[m[38;2;255;0;0mchedule_run.sh [86C[30m(B[m[48D[38;2;0;95;215m/home/kamnev/PHP/cuckoo/scripts/schedule_run.sh[30m(B[m [86C[86C
+[30m(B[m[?2004l]0;/home/kamnev/PHP/cuckoo/scripts/schedule_run.sh  /home/kamnev/PHP/cuckoo/scripts[30m(B[m^C[2m⏎(B[m                                                                                                                                                                                             ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m (master)(B[m (B[m[31m[[1m[31mSIGINT(B[m[31m](B[m(B[m> [K[47Cs[48C[38;2;85;85;85mcript[48C[30m(B[m[38;2;255;0;0ms[38;2;85;85;85mcript[48C[30m(B[m[38;2;255;0;0ms[30m(B[m[K[49C[38;2;85;85;85mh root@176.119.156.145[49C[30m(B[m[38;2;0;95;215mss[38;2;85;85;85mh root@176.119.156.145[49C[30m(B[m[38;2;0;95;215mh[38;2;85;85;85m root@176.119.156.145[50C[30m(B[m[38;2;0;95;215m root@176.119.156.145[71C[30m(B[m[21D [38;2;0;175;255mroot@176.119.156.145[71C[30m(B[m[71C
+[30m(B[m[?2004l]0;ssh root@176.119.156.145 /home/kamnev/PHP/cuckoo/scripts[30m(B[mWelcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-136-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Aug 23 11:21:59 MSK 2021
+
+  System load:  0.94               Processes:           177
+  Usage of /:   67.6% of 39.25GB   Users logged in:     1
+  Memory usage: 42%                IP address for eth0: 176.119.156.145
+  Swap usage:   99%
+
+ * Super-optimized for small spaces - read how we shrank the memory
+   footprint of MicroK8s to make it the smallest full K8s around.
+
+   https://ubuntu.com/blog/microk8s-memory-optimisation
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+169 packages can be updated.
+81 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+New release '20.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+No mail.
+Last login: Mon Aug 23 10:37:18 2021 from 109.252.118.201
+root@ruvds-2i8av:~# crontab -e
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;51r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[51;1H"/tmp/crontab.cdpwDf/crontab" 36L, 2447C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# ISPsystem acme.sh certs update task[m
+[31m39[m[35m 3[m[32m *[m[31m *[m[35m *[m      [38;5;130m/usr/local/mgr5/sbin/cron-core sbin/mgrctl -m core acmesh.certs.update >/dev/null 2>&1[m
+[34m## ISPsystem task which collect system statistics[m
+[31m*/5[m[35m *[m[32m *[m[31m *[m[35m *[m     [38;5;130m/usr/local/mgr5/sbin/cron-core sbin/mgrctl -m core sysinfostat >/dev/null 2>&1[m
+[34m## ISPsystem delete expire logs task[m
+[31m0[m[35m 3[m[32m *[m[31m *[m[35m *[m[7C[38;5;130m/usr/local/mgr5/sbin/cron-core sbin/mgrctl -m core deletearchivelogs >/dev/null 2>&1[m
+[34m## ISPsystem usagestat task[m
+[31m3[m[35m 3[m[32m *[m[31m *[m[35m *[m[7C[38;5;130m/usr/local/mgr5/sbin/cron-core sbin/usagestat >/dev/null 2>&1[m
+[34m## ISPsystem problems autosolve task (/usr/local/mgr5)[m
+[31m*/5[m[35m *[m[32m *[m[31m *[m[35m *[m     [38;5;130m/usr/local/mgr5/sbin/cron-core sbin/mgrctl -m core problems.autosolve >/dev/null 2>&1[m
+[34m## ISPmanager stat handler (ispmgr)[m
+[31m34[m[35m 6[m[32m *[m[31m *[m[35m *[m      [38;5;130m/usr/local/mgr5/sbin/cron-ispmgr sbin/mgrctl -m ispmgr ispstat >/dev/null 2>&1[m
+[34m## ISPmanager periodic tasks handler (ispmgr)[m
+[31m*[m[35m *[m[32m *[m[31m *[m[35m *[m[7C[38;5;130m/usr/local/mgr5/sbin/cron-ispmgr sbin/mgrctl -m ispmgr periodic >/dev/null 2>&1[m
+[34m## ISPsystem problems autosolve task (/usr/local/mgr5)[m
+[31m*/5[m[35m *[m[32m *[m[31m *[m[35m *[m     [38;5;130m/usr/local/mgr5/sbin/cron-ispmgr sbin/mgrctl -m ispmgr problems.autosolve >/dev/null 2>&1[m
+[34m## Check DS records from the domain registrar[m
+[31m48[m[35m 4[m[32m *[m[31m *[m[35m 0[m      [38;5;130m/usr/local/mgr5/sbin/cron-ispmgr sbin/mgrctl -m ispmgr checkdsrecords >/dev/null 2>&1[m
+[34m## ISPsystem update package cache task[m
+[31m59[m[35m 18[m[32m *[m[31m *[m[35m *[m     [38;5;130m/usr/local/mgr5/sbin/cron-ispmgr sbin/pkgupdate.sh >/dev/null 2>&1[m
+[34m## LARAVEL CRON
+##*/1 * * * *   php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1
+##*/1 * * * * ( sleep 10 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+##*/1 * * * * ( sleep 20 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+##*/1 * * * * ( sleep 30 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+##*/1 * * * * ( sleep 40 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+##*/1 * * * * ( sleep 50 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+## ISPmanager metric task[m
+[31m*[m[35m *[m[32m *[m[31m *[m[35m *[m [38;5;130mcd /var/www/autolong && php artisan schedule:run >> /dev/null 2>&1[m
+[31m*[m[35m *[m[32m *[m[31m *[m[35m *[m [38;5;130mcd /var/www/saas && php artisan schedule:run >> /dev/null 2>&1[m
+[31m*/5[m[35m *[m[32m *[m[31m *[m[35m *[m     [38;5;130m/usr/local/mgr5/sbin/cron-ispmgr sbin/metric >/dev/null 2>&1[m
+[31m*[m[35m *[m[32m *[m[31m *[m[35m *[m [38;5;130mphp /var/www/nerud/artisan credit:scoreResult >/dev/null 2>&1[m
+[34m## ISPsystem services monitoring task (srvmon)[m
+[31m*/15[m[35m *[m[32m *[m[31m *[m[35m *[m    [38;5;130m/usr/local/mgr5/sbin/cron-ispmgr addon/srvmon >/dev/null 2>&1[m
+[31m*[m[35m *[m[32m *[m[31m *[m[35m *[m [38;5;130mphp /var/www/nerud/artisan rzd:searchupdate >/dev/null 2>&1[m
+[31m0[m[35m 12[m[32m *[m[31m *[m[35m *[m [38;5;130mphp /var/www/nerud/artisan credit:scoreRequest >/dev/null 2>&1[m
+[94m~                                                                                                                                                                                             [38;1H~                                                                                                                                                                                             [39;1H~                                                                                                                                                                                             [40;1H~                                                                                                                                                                                             [41;1H~                                                                                                                                                                                             [42;1H~                                                                                                                                                                                             [43;1H~                                                                                                                                                                                             [44;1H~                                                                                                                                                                                             [45;1H~                                                                                                                                                                                             [46;1H~                                                                                                                                                                                             [47;1H~                                                                                                                                                                                             [48;1H~                                                                                                                                                                                             [49;1H~                                                                                                                                                                                             [50;1H~                                                                                                                                                                                             [m[51;173H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[96m# ISPsystem acme.sh certs update task[m
+[95m39[m[38;5;81m 3[m[38;5;121m *[m[95m *[m[38;5;81m *[m      [93m/usr/local/mgr5/sbin/cron-core sbin/mgrctl -m core acmesh.certs.update >/dev/null 2>&1[m
+[96m## ISPsystem task which collect system statistics[m
+[95m*/5[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m     [93m/usr/local/mgr5/sbin/cron-core sbin/mgrctl -m core sysinfostat >/dev/null 2>&1[m
+[96m## ISPsystem delete expire logs task[m
+[95m0[m[38;5;81m 3[m[38;5;121m *[m[95m *[m[38;5;81m *[m[7C[93m/usr/local/mgr5/sbin/cron-core sbin/mgrctl -m core deletearchivelogs >/dev/null 2>&1[m
+[96m## ISPsystem usagestat task[m
+[95m3[m[38;5;81m 3[m[38;5;121m *[m[95m *[m[38;5;81m *[m[7C[93m/usr/local/mgr5/sbin/cron-core sbin/usagestat >/dev/null 2>&1[m
+[96m## ISPsystem problems autosolve task (/usr/local/mgr5)[m
+[95m*/5[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m     [93m/usr/local/mgr5/sbin/cron-core sbin/mgrctl -m core problems.autosolve >/dev/null 2>&1[m
+[96m## ISPmanager stat handler (ispmgr)[m
+[95m34[m[38;5;81m 6[m[38;5;121m *[m[95m *[m[38;5;81m *[m      [93m/usr/local/mgr5/sbin/cron-ispmgr sbin/mgrctl -m ispmgr ispstat >/dev/null 2>&1[m
+[96m## ISPmanager periodic tasks handler (ispmgr)[m
+[95m*[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m[7C[93m/usr/local/mgr5/sbin/cron-ispmgr sbin/mgrctl -m ispmgr periodic >/dev/null 2>&1[m
+[96m## ISPsystem problems autosolve task (/usr/local/mgr5)[m
+[95m*/5[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m     [93m/usr/local/mgr5/sbin/cron-ispmgr sbin/mgrctl -m ispmgr problems.autosolve >/dev/null 2>&1[m
+[96m## Check DS records from the domain registrar[m
+[95m48[m[38;5;81m 4[m[38;5;121m *[m[95m *[m[38;5;81m 0[m      [93m/usr/local/mgr5/sbin/cron-ispmgr sbin/mgrctl -m ispmgr checkdsrecords >/dev/null 2>&1[m
+[96m## ISPsystem update package cache task[m
+[95m59[m[38;5;81m 18[m[38;5;121m *[m[95m *[m[38;5;81m *[m     [93m/usr/local/mgr5/sbin/cron-ispmgr sbin/pkgupdate.sh >/dev/null 2>&1[m
+[96m## LARAVEL CRON
+##*/1 * * * *   php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1
+##*/1 * * * * ( sleep 10 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+##*/1 * * * * ( sleep 20 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+##*/1 * * * * ( sleep 30 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+##*/1 * * * * ( sleep 40 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+##*/1 * * * * ( sleep 50 ; php /var/www/cuckoo/artisan schedule:run >>/dev/null 2>&1)
+## ISPmanager metric task[m
+[95m*[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m [93mcd /var/www/autolong && php artisan schedule:run >> /dev/null 2>&1[m
+[95m*[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m [93mcd /var/www/saas && php artisan schedule:run >> /dev/null 2>&1[m
+[95m*/5[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m     [93m/usr/local/mgr5/sbin/cron-ispmgr sbin/metric >/dev/null 2>&1[m
+[95m*[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m [93mphp /var/www/nerud/artisan credit:scoreResult >/dev/null 2>&1[m
+[96m## ISPsystem services monitoring task (srvmon)[m
+[95m*/15[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m    [93m/usr/local/mgr5/sbin/cron-ispmgr addon/srvmon >/dev/null 2>&1[m
+[95m*[m[38;5;81m *[m[38;5;121m *[m[95m *[m[38;5;81m *[m [93mphp /var/www/nerud/artisan rzd:searchupdate >/dev/null 2>&1[m
+[95m0[m[38;5;81m 12[m[38;5;121m *[m[95m *[m[38;5;81m *[m [93mphp /var/www/nerud/artisan credit:scoreRequest >/dev/null 2>&1[m
+[94m~                                                                                                                                                                                             [38;1H~                                                                                                                                                                                             [39;1H~                                                                                                                                                                                             [40;1H~                                                                                                                                                                                             [41;1H~                                                                                                                                                                                             [42;1H~                                                                                                                                                                                             [43;1H~                                                                                                                                                                                             [44;1H~                                                                                                                                                                                             [45;1H~                                                                                                                                                                                             [46;1H~                                                                                                                                                                                             [47;1H~                                                                                                                                                                                             [48;1H~                                                                                                                                                                                             [49;1H~                                                                                                                                                                                             [50;1H~                                                                                                                                                                                             [m[51;173H1,1[11CAll"/tmp/crontab.cdpwDf/crontab" 36L, 2447C[1;1H[?25h[?25l[51;163H1[1;1H[?25h[?25l[51;164HG[1;1H[51;163H  [1;1H[?25h[?25l[51;163Hj[1;1H[51;163H [2;1H[51;173H2[2;1H[?25h[?25l[51;163Hj[2;1H[51;163H [3;1H[51;173H3[3;1H[?25h[?25l[51;163Hj[3;1H[51;163H [4;1H[51;173H4[4;1H[?25h[?25l[51;163Hj[4;1H[51;163H [5;1H[51;173H5[5;1H[?25h[?25l[51;163Hj[5;1H[51;163H [6;1H[51;173H6[6;1H[?25h[?25l[51;163Hj[6;1H[51;163H [7;1H[51;173H7[7;1H[?25h[?25l[51;163Hj[7;1H[51;163H [8;1H[51;173H8[8;1H[?25h[?25l[51;163Hj[8;1H[51;163H [9;1H[51;173H9[9;1H[?25h[?25l[51;163Hj[9;1H[51;163H [10;1H[51;173H10,1[10;1H[?25h[?25l[51;163Hj[10;1H[51;163H [11;1H[51;174H1[11;1H[?25h[?25l[51;163Hj[11;1H[51;163H [12;1H[51;174H2[12;1H[?25h[?25l[51;163Hj[12;1H[51;163H [13;1H[51;174H3[13;1H[?25h[?25l[51;163Hj[13;1H[51;163H [14;1H[51;174H4[14;1H[?25h[?25l[51;163Hj[14;1H[51;163H [15;1H[51;174H5[15;1H[?25h[?25l[51;163H:[15;1H[51;1H[K[51;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?2004l[51;1H[K[51;1H[?2004l[?1l>[?25h[?1049l[23;0;0tNo modification made
+root@ruvds-2i8av:~# client_loop: send disconnect: Broken pipe
+[2m⏎(B[m                                                                                                                                                                                             ⏎ [K[?2004h]0;fish /home/kamnev/PHP/cuckoo/scripts[30m(B[m[92mkamnev(B[m@(B[mfedora(B[m [32m~/P/c/scripts(B[m(B[m (B[m[31m[[1m[31m255(B[m[31m](B[m(B[m> [K[35Cw[36C[38;2;0;95;215mw[36C[30m(B[m[38;2;85;85;85mhereis psql[36C[30m(B[m[K[35Ce[36C[38;2;85;85;85mxit[36C[30m(B[m[38;2;255;0;0me[38;2;85;85;85mxit[36C[30m(B[m[38;2;255;0;0mx[38;2;85;85;85mit[37C[30m(B[m[38;2;0;95;215mex[38;2;85;85;85mit[37C[30m(B[m[38;2;0;95;215mi[38;2;85;85;85mt[38C[30m(B[m[38;2;255;0;0mexi[38;2;85;85;85mt[38C[30m(B[m[38;2;255;0;0mt[39C[30m(B[m[38;2;0;95;215mexit[39C[30m(B[m[39C
+[30m(B[m[?2004l]0;exit /home/kamnev/PHP/cuckoo/scripts[30m(B[m[30m(B[m[?2004l
+Script done on 2021-08-23 21:16:17+03:00 [COMMAND_EXIT_CODE="255"]

@@ -1,0 +1,113 @@
+.SwitchButtons {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SelectorButton, .Active {
+    box-sizing: border-box;
+    padding: 20px 0;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8C8C8C;
+    background: transparent;
+    transition: all .1s;
+    border-bottom: 4px solid transparent;
+}
+
+.Active {
+    color: #000;
+    border-bottom: 4px solid #3E74F4;
+}
+
+.Underline {
+    margin-top: -2px;
+    margin-bottom: 40px;
+    width: 70%;
+    height: 2px;
+    background-color: #D8D8D8;
+    transition: all .3s;
+}
+
+.Title {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #f5f5f5;
+}
+
+.SubmitCreation {
+    margin-top: 30px;
+    width: 245px;
+    height: 48px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4CC557;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.SwitchContainer {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+}
+
+.Switch {
+    position: absolute;
+    width: 30px;
+    left: 2px;
+    top: 2px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.SwitchActive {
+    position: absolute;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.SwitchLabelActive {
+    position: relative;
+    margin-right: 10px;
+    width: 60px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: #3e74f4;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.SwitchLabel {
+    position: relative;
+    margin-right: 10px;
+    width: 60px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: #D8D8D8;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.SwitchStatus {
+    font-size: 13px;
+    color: #8E8E8E;
+    font-weight: 700;
+}

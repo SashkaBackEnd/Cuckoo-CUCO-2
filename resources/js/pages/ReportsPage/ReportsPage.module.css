@@ -1,0 +1,147 @@
+.ReportData {
+    width: 100%;
+    position: relative;
+    margin: 30px 100px 0 100px;
+}
+
+.ReportSearch {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    background-color: #fff;
+}
+
+.FirstRow {
+    display: flex;
+    align-items: center;
+}
+
+.FirstRow {
+    justify-content: space-between;
+}
+
+.FirstRow > h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.FirstRow > button {
+    background-color: transparent;
+    border: 0;
+}
+
+.SecondRow {
+    display: flex;
+    align-items: flex-end;
+}
+
+.SecondRow > label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    color: #8e8e8e;
+    font-size: 13px;
+}
+
+.SecondRow > label > * {
+    margin-top: 10px;
+}
+
+.SecondRow > label > input, .SecondRow > label > select {
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #8C8C8C;
+}
+
+.SecondRow button {
+    width: 250px;
+    height: 50px;
+    background-color: #3E74F4;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0;
+}
+
+.List {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ListElem {
+    box-sizing: border-box;
+    padding: 30px 40px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.WorkerName {
+    display: flex;
+    align-items: center;
+}
+
+.WorkerName span{
+    margin-left: 7px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.NameCircle {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #0f6674;
+}
+
+.GrayRow {
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.GrayRow span {
+    margin-right: 20px;
+}
+
+.GrayRow span:first-child {
+    color: #878787;
+    font-size: 14px;
+}
+
+.GrayRow span:last-child {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.DownRow {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DownRow div {
+    display: flex;
+    flex-direction: column;
+}
+
+.DownRow div span:first-child {
+    color: #8C8C8C;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.DownRow div span:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.DownRow div span:last-child svg {
+    margin-right: 8px;
+}

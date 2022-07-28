@@ -1,0 +1,16 @@
+.BackToMenu {
+    padding: 30px 0 30px 90px;
+    display: flex;
+    align-items: center;
+    color: #8C8C8C;
+    text-decoration: none;
+}
+
+.BackToMenu:hover {
+    color: #8C8C8C;
+    text-decoration: none;
+}
+
+.BackToMenu svg {
+    margin-right: 8px;
+}

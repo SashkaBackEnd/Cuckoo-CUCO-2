@@ -1,0 +1,159 @@
+.Menu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100vh;
+  background: #2C2C2C;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+}
+
+.MenuMobile {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  background: #2C2C2C;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+}
+
+.Menu > span:visited, .Menu > span:hover, .Menu > span:active {
+  text-decoration: none;
+}
+
+.Menu ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listItemMobile {
+  padding: 2px!important;
+  display: flex;
+  /* justify-content: center!important; */
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  margin-left: 16px;
+}
+
+.listItem {
+  /*padding: 2px!important;*/
+  display: flex;
+  justify-content: space-between;
+  /*justify-content: center;*/
+  align-items: center;
+  color: #fff;
+}
+
+
+.listItemInOverlay {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+
+
+.listItem span {
+  color: #8C8C8C;
+}
+
+.listItem icon {
+  background-color: #878787;
+}
+
+.listItemLabel {
+  display: flex;
+  align-items: center;
+}
+
+.Menu ul > li {
+  width: 100%;
+  position: relative;
+  height: 50px;
+}
+
+.Menu ul > li a {
+  padding-left: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #878787;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Menu ul > li:hover {
+  background-color: #434343;
+}
+
+.activeMobile * p  {
+  color: white
+}
+
+.activeMobile {
+  background: #2c2c2c !important;
+}
+
+
+.active * p {
+  color: white;
+}
+
+.Menu ul > li img, .Menu ul > li svg {
+  margin-right: 18px;
+  vertical-align: sub;
+  width: 26px;
+  height: 26px;
+}
+
+.exit {
+  position: absolute;
+  bottom: 30px;
+}
+
+.Menu > .Profile {
+  padding: 20px 0 20px 0;
+  margin: 0 30px 30px 30px;
+  border-top: 1px solid #434343;
+  border-bottom: 1px solid #434343;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+
+/*.main_content {*/
+
+/*}*/
+
+/*@media screen and (max-width: 1300px) and (min-width: 1280px){*/
+/*    .main_content {*/
+/*      margin-left: 240px !important;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-height: 600px) {
+  .Menu .exit {
+    position: unset;
+    bottom: 0;
+  }
+
+  .Menu ul > li:hover {
+    background: none;
+  }
+}
+
+

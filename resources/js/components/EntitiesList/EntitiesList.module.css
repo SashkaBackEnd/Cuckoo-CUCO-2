@@ -1,0 +1,25 @@
+.List {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-bottom: 30px;
+}
+
+
+@media screen and (max-width: 880px) {
+  .List {
+    display: grid;
+    grid-gap: 20px;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .List {
+    display: grid;
+    grid-template-columns: none;
+    grid-gap: 20px;
+    padding-bottom: 30px;
+  }
+}
